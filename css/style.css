@@ -90,7 +90,18 @@ footer {
 #logout:hover {
     background: rgba(234, 233, 241, 0.5);
 }
+#search {
+    border: 0;
+}
 
+.searchbox {
+    padding: 8px 4px 0;
+    height: 30px;
+    border: 1px solid #aeaeae;
+}
+.searchbox button {
+    border: none;
+}
 .capitalize {
     text-transform: uppercase;
 }
@@ -100,7 +111,7 @@ footer {
 .active {
      border-left: 5px solid #484689;
      color: #484689;
- }
+}
 .catalogue-item {
     width: 140px;
     height: 130px;
