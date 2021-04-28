@@ -1,0 +1,31 @@
+#catalogue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 30px;
+}
+.catalogue-item {
+    width: 120px;
+    height: 150px;
+    border: 1px solid #cecece;
+    padding: 7px;
+    margin: 10px;
+    color: #424242;
+    text-decoration: none;
+    flex: 1 0 15%;
+}
+.catalogue-item span {
+    display: none;
+}
+.catalogue-item:hover span {
+    display: block;
+    color: #cecece;
+    font-size: 10px;
+}
+.catalogue-item:hover p {
+    margin-top: -10px;
+}
+.catalogue-item p {
+    margin-top: 40px;
+}
