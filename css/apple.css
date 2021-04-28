@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 20px 0;
+    margin: 20px 0 10px;
     padding: 30px;
 }
 .item {
@@ -25,11 +25,26 @@
     font-size: 10px;
 }
 
-#quantity {
+.quantity {
     width: 40px;
     margin-right: 5px;
 }
-#add {
+.add {
     width: 120px;
     margin-left: 15px;
+}
+.quantity:hover {
+    border: 1px solid #484689;
+}
+
+.add:hover {
+    background: #484689;
+    color: white;
+}
+
+.pagination {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 0;
+    color: #cecece;
 }
