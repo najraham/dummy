@@ -61,6 +61,22 @@ main header {
     align-items: center;
     padding: 20px 40px;
 }
+table{
+    width: 95%;
+    padding: 30px;
+    margin: 10px 30px 0;
+    border-collapse: collapse;
+    color: #a7a7a7;
+}
+tr {
+    height: 40px;
+}
+td, th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e4e8;
+    border-top: 1px solid #e2e4e8;
+}
 footer {
     font-size: 10px;
     text-align: center;
@@ -95,7 +111,87 @@ footer {
 #search::placeholder {
     color: #a7a7a7;
 }
+#catalogue {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin: 20px 0;
+     padding: 30px;
+ }
+#apple {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0 10px;
+    padding: 30px;
+}
+.item {
+    margin: 0 20px;
+    border-bottom: 1px solid #aeaeae;
+    padding-bottom: 20px;
+}
+.item img {
+    width: 120px;
+}
+.item p {
+    color: #a7a7a7;
+    font-size: 11px;
+}
+.item button {
+    border: 1px solid #cecece;
+    background: white;
+    height: 30px;
+    font-weight: bold;
+    font-size: 10px;
+}
 
+.quantity {
+    width: 40px;
+    margin-right: 5px;
+}
+.add {
+    width: 120px;
+    margin-left: 15px;
+}
+.quantity:hover {
+    border: 1px solid #484689;
+}
+
+.add:hover {
+    background: #484689;
+    color: white;
+}
+
+.pagination {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 0;
+    color: #cecece;
+}
+.catalogue-item {
+    width: 120px;
+    height: 150px;
+    border: 1px solid #cecece;
+    padding: 7px;
+    margin: 10px;
+    color: #424242;
+    text-decoration: none;
+    flex: 1 0 15%;
+}
+.catalogue-item span {
+    display: none;
+}
+.catalogue-item:hover span {
+    display: block;
+    color: #cecece;
+    font-size: 10px;
+}
+.catalogue-item:hover p {
+    margin-top: -10px;
+}
+.catalogue-item p {
+    margin-top: 40px;
+}
 .searchbox {
     padding: 5px 15px;
     height: 30px;
