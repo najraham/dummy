@@ -1,0 +1,20 @@
+:root {
+  background: $very-light-gray;
+  font-family: $main-font;
+  font-size: $main-font-size;
+  color: $dark-gray;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+
+img {
+  width: 90px;
+  display: block;
+  margin: 20px auto;
+}

@@ -1,0 +1,84 @@
+/* Sidebar */
+
+aside {
+  background: $white;
+  width: 16%;
+
+  header {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid $light-gray;
+  }
+}
+
+//Logo
+
+#logo {
+  width: 105px;
+  margin: 0 auto;
+}
+
+#user {
+  color: $dark-blue;
+  width: 50%;
+  margin: 10px auto 40px;
+  text-align: center;
+}
+
+//Navigation
+
+nav {
+  width: 90%;
+  margin: 50px auto;
+
+  h4 {
+    padding-left: 30px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  height: 70vh;
+}
+
+li {
+  padding-left: 15px;
+
+  i {
+    margin: 10px 8px;
+    font-size: 20px;
+  }
+}
+
+a {
+  color: $gray;
+  text-decoration-line: none;
+
+  &:hover {
+    color: $dark-blue;
+  }
+}
+
+.active {
+  border-left: 8px solid $dark-blue;
+
+  a {
+    color: $dark-blue;
+  }
+}
+
+//Logout
+
+#logout {
+  color: $dark-blue;
+  border: none;
+  background: #eae9f1;
+  width: 60%;
+  margin: 0 65px;
+  height: 30px;
+
+  &:hover {
+    background: rgba(234, 233, 241, 0.5);
+  }
+}

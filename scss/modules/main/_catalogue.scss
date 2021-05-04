@@ -1,0 +1,40 @@
+/* Main Catalogue */
+#catalogue {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 30px;
+}
+
+
+.catalogue-item {
+  width: 150px;
+  height: 150px;
+  border: 1px solid $light-gray;
+  padding: 7px;
+  margin: 10px;
+  color: $dark-gray;
+  text-decoration: none;
+  flex: 1 0 15%;
+
+  span {
+    display: none;
+  }
+
+  &:hover {
+    span {
+      display: block;
+      color: $light-gray;
+      font-size: 10px;
+    }
+
+    p {
+      margin-top: -10px;
+    }
+  }
+
+  p {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,41 @@
+/* Main Section */
+
+/* Main Header */
+main {
+  width: 81%;
+  background: $white;
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #e2e4e8;
+    align-items: center;
+    padding: 20px 40px;
+  }
+}
+
+#search {
+  border: 0;
+  width: 100px;
+
+  &::placeholder {
+    color: $gray;
+  }
+}
+
+.searchbox {
+  padding: 5px 15px;
+  height: 30px;
+  border: 1px solid #e2e4e8;
+  color: #e2e4e8;
+  width: 140px;
+
+  button {
+    border: none;
+    color: $gray;
+    background: white;
+    font-size: 20px;
+    padding-top: 3px;
+  }
+}
