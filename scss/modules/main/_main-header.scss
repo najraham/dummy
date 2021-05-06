@@ -38,4 +38,14 @@ main {
     font-size: 20px;
     padding-top: 3px;
   }
+
+  &:hover{
+    button {
+      transform: scale(1.2);
+    }
+  }
+
+
 }
+
+

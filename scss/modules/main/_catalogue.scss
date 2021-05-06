@@ -7,7 +7,6 @@
   padding: 30px;
 }
 
-
 .catalogue-item {
   width: 150px;
   height: 150px;
@@ -20,6 +19,12 @@
 
   span {
     display: none;
+    transition: 0.5s;
+  }
+
+  p {
+    margin-top: 40px;
+    transition: 0.5s;
   }
 
   &:hover {
@@ -27,14 +32,11 @@
       display: block;
       color: $light-gray;
       font-size: 10px;
+      transform: translateY(-20px);
     }
 
     p {
-      margin-top: -10px;
+      transform: translateY(-20px);
     }
-  }
-
-  p {
-    margin-top: 40px;
   }
 }
