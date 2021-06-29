@@ -17,26 +17,26 @@
   text-decoration: none;
   flex: 1 0 15%;
 
-  span {
+  .catalogue-item-description {
     display: none;
     transition: 0.5s;
   }
 
-  p {
+  .catalogue-item-header {
     margin-top: 40px;
     transition: 0.5s;
   }
 
   &:hover {
-    span {
-      display: block;
-      color: $light-gray;
-      font-size: 10px;
+    .catalogue-item-header {
       transform: translateY(-20px);
     }
 
-    p {
-      transform: translateY(-20px);
+    .catalogue-item-description {
+      display: block;
+      color: $light-gray;
+      font-size: 10px;
+      transform: translateY(-10px);
     }
   }
 }

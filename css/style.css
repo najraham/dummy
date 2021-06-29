@@ -151,22 +151,22 @@ main header {
   text-decoration: none;
   flex: 1 0 15%;
 }
-.catalogue-item span {
+.catalogue-item .catalogue-item-description {
   display: none;
   transition: 0.5s;
 }
-.catalogue-item p {
+.catalogue-item .catalogue-item-header {
   margin-top: 40px;
   transition: 0.5s;
 }
-.catalogue-item:hover span {
+.catalogue-item:hover .catalogue-item-header {
+  transform: translateY(-20px);
+}
+.catalogue-item:hover .catalogue-item-description {
   display: block;
   color: #cecece;
   font-size: 10px;
-  transform: translateY(-20px);
-}
-.catalogue-item:hover p {
-  transform: translateY(-20px);
+  transform: translateY(-10px);
 }
 
 /* Apple */
